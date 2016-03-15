@@ -154,3 +154,9 @@ set sd:sd_io_time=10
 
 * Use hires tick to improve some scheduling latency issues
 set hires_tick=1
+
+*
+* XXX Disable the "apix" module in this custom platform image to see if it
+* prevents interrupts from the Smart Array controller disappearing forever
+*
+set apix_enable=0
