@@ -160,3 +160,8 @@ set hires_tick=1
 * prevents interrupts from the Smart Array controller disappearing forever
 *
 set apix_enable=0
+
+*
+* XXX Shorten the ZFS deadman delay to 180 seconds (three minutes)
+*
+set zfs_deadman_synctime_ms=180000
