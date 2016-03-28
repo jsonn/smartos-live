@@ -164,4 +164,4 @@ set apix_enable=0
 *
 * XXX Shorten the ZFS deadman delay to 180 seconds (three minutes)
 *
-set zfs_deadman_synctime_ms=180000
+set zfs:zfs_deadman_synctime_ms=180000
